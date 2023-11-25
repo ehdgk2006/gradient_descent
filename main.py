@@ -35,8 +35,7 @@ def newton_method(x0: float, f: object, step: int = 10):
 
 
 def f(x):
-    for i in range(10000):
-        pass
+    time.sleep(0.001)
     return np.sin(x)*5+ np.cos(x/2)*3 + x
 
 
